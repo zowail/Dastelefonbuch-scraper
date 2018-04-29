@@ -159,17 +159,6 @@ def parse_phone_number_from_profile_contains_more_than_one():
         return "None"
 ```
 
-
-**Now let's communicate with Google Chrome using the chrome driver and go to the search results page**
-```python
-driver = webdriver.Chrome('C:\chromedriver\chromedriver.exe')
-
-
-driver.get("https://www.dasschnelle.at/ergebnisse?what=david&where=&distance=0&search_button=SUCHEN")
-
-sleep(0.5)
-```
-
 **the main part where we use the functions created**
 ```python
 driver = webdriver.Chrome('C:\chromedriver\chromedriver.exe')
